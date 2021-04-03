@@ -1,0 +1,10 @@
+{
+  "name": "mysqlpublic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "version": "cross-conf-env echo %npm_package_name% %npm_package_version%"
+  }
+}
